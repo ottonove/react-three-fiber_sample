@@ -1,0 +1,37 @@
+{
+  "name": "r3f-hello-world",
+  "version": "1.0.0",
+  "description": "the \"Hell WebVR\" example from A-Frame built in react-three-fiber.\noriginal a-frame example: https://aframe.io/examples/showcase/helloworld/",
+  "keywords": [
+    "react-three-fiber",
+    "r3f",
+    "aframe",
+    "webxr"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@types/three": "0.103.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.1",
+    "react-three-fiber": "4.1.1",
+    "three": "0.115.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
